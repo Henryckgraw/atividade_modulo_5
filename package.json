@@ -1,0 +1,26 @@
+{
+  "name": "Module_5",
+  "version": "1.0.0",
+  "description": "Atividade pratica do curso.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henryckgraw/atividade_modulo_5.git"
+  },
+  "author": "Henrique Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henryckgraw/atividade_modulo_5.git/issues"
+  },
+  "homepage": "https://github.com/Henryckgraw/atividade_modulo_5.git#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+.brand{
+    float: left;
+    text-align:center;
+    padding-left: 15px;
+    h1 {
+        color:red;
+        font-size: 40px;
+        @extend %font-brand;
+        @include font-color-default();
+    }
+}

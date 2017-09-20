@@ -1,0 +1,25 @@
+
+
+.navbar{
+    border: solid 1px;
+    @include border-color-default();
+    height: 100px;
+    width: 600px;
+    
+    .menu {
+        float: right;
+        text-align:center;
+        padding: 18px;
+    }
+    p {
+        padding-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 20px;
+        @extend %font-menu;
+        @include font-color-default();
+    }
+    p:hover {
+        color: #7B68EE;
+    }
+}
